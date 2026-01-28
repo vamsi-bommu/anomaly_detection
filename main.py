@@ -1,7 +1,6 @@
 """
 Master Pipeline Orchestrator
-Runs the complete hierarchical anomaly detection pipeline
-Structure: Global â†’ Branches
+Runs the complete anomaly detection pipeline
 """
 import os
 import sys
@@ -24,8 +23,8 @@ LOGS_DIR = Config.LOGS_DIR
 MIN_RECORDS = Config.MIN_RECORDS
 
 print("Using configuration from config.py")
-print(f"   Data Dir: {HIERARCHICAL_DATA_DIR}")
-print(f"   Logs Dir: {LOGS_DIR}")
+print(f"Data Dir: {HIERARCHICAL_DATA_DIR}")
+print(f"Logs Dir: {LOGS_DIR}")
 # ============================================================================
 
 
