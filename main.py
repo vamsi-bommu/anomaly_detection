@@ -6,9 +6,8 @@ import traceback
 from pathlib import Path
 
 
-# ============================================================================
 # IMPORT CONFIGURATION - All paths managed in config.py
-# ============================================================================
+
 from config.config import Config
 
 # Use centralized configuration
@@ -21,7 +20,6 @@ MIN_RECORDS = Config.MIN_RECORDS
 print("Using configuration from config.py")
 print(f"Data Dir: {HIERARCHICAL_DATA_DIR}")
 print(f"Logs Dir: {LOGS_DIR}")
-# ============================================================================
 
 
 def ensure_directories_exist():
