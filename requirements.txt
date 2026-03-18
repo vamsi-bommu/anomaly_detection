@@ -1,4 +1,4 @@
-python>=3.13.11
+python=3.13.11
 
 # Core Dependencies
 pandas>=2.0.0
@@ -13,21 +13,21 @@ seaborn>=0.12.0
 
 # Machine Learning - Anomaly Detection
 time-series-anomaly-detector==0.4.0
-torch>=2.0.0
+torch=2.0.0
 
 # File Monitoring
-watchdog>=3.0.0
+watchdog=3.0.0
 
 # Configuration
-pyyaml>=6.0
+pyyaml=6.0
 
 # Date/Time
-python-dateutil>=2.8.0
+python-dateutil=2.8.0
 
 # Progress bars
-tqdm>=4.65.0
+tqdm=4.65.0
 
 # Optional but recommended
-plotly>=5.16.0
-openpyxl>=3.1.0
+plotly=5.16.0
+openpyxl=3.1.0
 
